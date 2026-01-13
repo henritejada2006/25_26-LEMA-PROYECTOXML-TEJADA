@@ -12,19 +12,11 @@
             <nombre>Desarrollo de Software</nombre>
             <descripcion>Creación de aplicaciones personalizadas para empresas.</descripcion>
             <imagen>"ruta/a/desarrollo_software.jpg"</imagen>
-            <detalles>
-                <informacion>Servicio enfocado en soluciones personalizadas.</informacion>
-                <categoria>Tecnología</categoria>
-            </detalles>
         </servicio>
         <servicio>
             <nombre>Consultoría IT</nombre>
             <descripcion>Asesoramiento en estrategias tecnológicas y optimización de recursos.</descripcion>
             <imagen>"ruta/a/consultoria_it.jpg"</imagen>
-            <detalles>
-                <informacion>Consultoría para optimizar procesos tecnológicos.</informacion>
-                <categoria>Consultoría</categoria>
-            </detalles>
         </servicio>
         <servicio>
             <nombre categoria="Soporte">Soporte Técnico</nombre>
