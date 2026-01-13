@@ -1,0 +1,17 @@
+<!ELEMENT empresa (nombre,direccion,servicios,productos)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre categoria NMTOKEN #IMPLIED>
+<!ELEMENT direccion (calle,ciudad,pais)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT servicios (servicio+)>
+<!ELEMENT servicio (nombre,descripcion,imagen,detalles?)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT detalles (informacion,categoria)>
+<!ELEMENT informacion (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre,descripcion,precio,imagen)>
+<!ELEMENT precio (#PCDATA)>
