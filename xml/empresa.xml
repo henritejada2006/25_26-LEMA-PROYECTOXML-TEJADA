@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <empresa>
-        <nombre>Tech Solutions S.A.</nombre>
-        <direccion>
-            <calle>Av. Innovación 123</calle>
-            <ciudad>Ciudad Tecnológica</ciudad>
-            <pais>Futurolandia</pais>
-        </direccion>
-        <servicios>
-            <servicio>
-                <nombre>Desarrollo de Software</nombre>
-                <descripcion>Creación de aplicaciones personalizadas para empresas.</descripcion>
-            </servicio>
-            <servicio>
-                <nombre>Consultoría IT</nombre>
-                <descripcion>Asesoramiento en estrategias tecnológicas y optimización de recursos.</descripcion>
-            </servicio>
-            <servicio>
-                <nombre>Soporte Técnico</nombre>
-                <descripcion>Asistencia y mantenimiento de sistemas informáticos.</descripcion>
-            </servicio>
-        </servicios>
-        <productos>
-            <producto>
-                <nombre>AppGestor</nombre>
-                <descripcion>Software de gestión empresarial integral.</descripcion>
-                <precio>499.99</precio>
-            </producto>
-            <producto>
-                <nombre>DataSecure</nombre>
-                <descripcion>Solución avanzada de seguridad de datos.</descripcion>
-                <precio>299.99</precio>
-            </producto>
-            <producto>
-                <nombre>CloudSync</nombre>
-                <descripcion>Plataforma de sincronización y almacenamiento en la nube.</descripcion>
-                <precio>199.99</precio>
-            </producto>
-        </productos>
-    </empresa>
+<empresa>
+    <nombre>Tech Solutions S.A.</nombre>
+    <direccion>
+        <calle>Av. Innovación 123</calle>
+        <ciudad>Ciudad Tecnológica</ciudad>
+        <pais>Futurolandia</pais>
+    </direccion>
+    <servicios>
+        <servicio>
+            <nombre>Desarrollo de Software</nombre>
+            <descripcion>Creación de aplicaciones personalizadas para empresas.</descripcion>
+            <imagen>"ruta/a/desarrollo_software.jpg"</imagen>
+            <detalles>
+                <informacion>Servicio enfocado en soluciones personalizadas.</informacion>
+                <categoria>Tecnología</categoria>
+            </detalles>
+        </servicio>
+        <servicio>
+            <nombre>Consultoría IT</nombre>
+            <descripcion>Asesoramiento en estrategias tecnológicas y optimización de recursos.</descripcion>
+            <imagen>"ruta/a/consultoria_it.jpg"</imagen>
+            <detalles>
+                <informacion>Consultoría para optimizar procesos tecnológicos.</informacion>
+                <categoria>Consultoría</categoria>
+            </detalles>
+        </servicio>
+        <servicio>
+            <nombre categoria="Soporte">Soporte Técnico</nombre>
+            <descripcion>Asistencia y mantenimiento de sistemas informáticos.</descripcion>
+            <imagen>"ruta/a/soporte_tecnico.jpg"</imagen>
+        </servicio>
+    </servicios>
+    <productos>
+        <producto>
+            <nombre categoria="Software">AppGestor</nombre>
+            <descripcion>Software de gestión empresarial integral.</descripcion>
+            <precio>499.99</precio>
+            <imagen>"ruta/a/appgestor.jpg"</imagen>
+        </producto>
+        <producto>
+            <nombre categoria="Seguridad">DataSecure</nombre>
+            <descripcion>Solución avanzada de seguridad de datos.</descripcion>
+            <precio>299.99</precio>
+            <imagen>"ruta/a/datasecure.jpg"</imagen>
+        </producto>
+        <producto>
+            <nombre categoria="Almacenamiento">CloudSync</nombre>
+            <descripcion>Plataforma de sincronización y almacenamiento en la nube.</descripcion>
+            <precio>199.99</precio>
+            <imagen>"ruta/a/cloudsync.jpg"</imagen>
+        </producto>
+    </productos>
+</empresa>
