@@ -6,9 +6,14 @@
 <!ELEMENT ciudad (#PCDATA)>
 <!ELEMENT pais (#PCDATA)>
 <!ELEMENT servicios (servicio+)>
-<!ELEMENT servicio (nombre,descripcion,imagen)>
+<!ELEMENT servicio (nombre,descripcion,descripcion2,imagen)>
 <!ELEMENT descripcion (#PCDATA)>
 <!ELEMENT imagen (#PCDATA)>
 <!ELEMENT productos (producto+)>
-<!ELEMENT producto (nombre,descripcion,precio,imagen)>
+<!ELEMENT producto (nombre,descripcion,descripcion2,precio,imagen)>
+<!ELEMENT descripcion2 (item+)>
+<!ELEMENT item (#PCDATA)>
 <!ELEMENT precio (#PCDATA)>
+<!ELEMENT contacto (nombre,email,mensaje)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>

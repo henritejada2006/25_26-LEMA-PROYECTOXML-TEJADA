@@ -7,41 +7,87 @@
         <ciudad>Ciudad Tecnológica</ciudad>
         <pais>Futurolandia</pais>
     </direccion>
+
+
     <servicios>
         <servicio>
             <nombre>Desarrollo de Software</nombre>
             <descripcion>Creación de aplicaciones personalizadas para empresas.</descripcion>
+             <descripcion2>
+                    <item>Aplicaciones web a medida.</item>
+                    <item>Desarrollo de apps móviles.</item>
+                    <item>Integración con sistemas existentes.</item>
+                </descripcion2>
             <imagen>"ruta/a/desarrollo_software.jpg"</imagen>
         </servicio>
         <servicio>
             <nombre>Consultoría IT</nombre>
             <descripcion>Asesoramiento en estrategias tecnológicas y optimización de recursos.</descripcion>
+                <descripcion2>
+                        <item>Evaluación de infraestructura tecnológica.</item>
+                        <item>Planificación de proyectos IT.</item>
+                        <item>Optimización de procesos empresariales mediante tecnología.</item>
+                    </descripcion2>
             <imagen>"ruta/a/consultoria_it.jpg"</imagen>
         </servicio>
         <servicio>
             <nombre categoria="Soporte">Soporte Técnico</nombre>
             <descripcion>Asistencia y mantenimiento de sistemas informáticos.</descripcion>
+                <descripcion2>
+                    <item>Soporte remoto y en sitio.</item>
+                    <item>Mantenimiento preventivo y correctivo.</item>
+                    <item>Actualización de software y hardware.</item>
+                </descripcion2>
             <imagen>"ruta/a/soporte_tecnico.jpg"</imagen>
         </servicio>
     </servicios>
+
+
     <productos>
         <producto>
             <nombre categoria="Software">AppGestor</nombre>
             <descripcion>Software de gestión empresarial integral.</descripcion>
+                <descripcion2>
+                    <item>Optimizacion de flujos de trabajo internos.</item>
+                    <item>Control de inventario y facturación automatizada.</item>
+                    <item>Generacion de reportes analiticos en tiempo real.</item>
+                </descripcion2>
             <precio>499.99</precio>
             <imagen>"ruta/a/appgestor.jpg"</imagen>
         </producto>
         <producto>
             <nombre categoria="Seguridad">DataSecure</nombre>
             <descripcion>Solución avanzada de seguridad de datos.</descripcion>
+                <descripcion2>
+                    <item>Encriptacion avanzada de bases de datos corporativas.</item>
+                    <item>Sistema de detección de intreusiones y firewalls activos.</item>
+                    <item>Copias de seguridad automáticas en espejos externos.</item>
+                </descripcion2>
             <precio>299.99</precio>
             <imagen>"ruta/a/datasecure.jpg"</imagen>
         </producto>
         <producto>
             <nombre categoria="Almacenamiento">CloudSync</nombre>
             <descripcion>Plataforma de sincronización y almacenamiento en la nube.</descripcion>
+                <descripcion2>
+                    <item>Sincronización de archivos en múltiples dispositivos.</item>
+                    <item>Acceso remoto seguro mediante protocolos VPN.</item>
+                    <item>Colabroación en vivo sobre documentos compartidos.</item>
+                </descripcion2>
             <precio>199.99</precio>
             <imagen>"ruta/a/cloudsync.jpg"</imagen>
         </producto>
     </productos>
+
+
+
+    <contacto>
+
+        <nombre>Nombre Usuario</nombre>
+        <Email>ejemplo@gmail.com</email>
+        <mensaje>Escribe aqui el contenido del mensaje</mensaje>
+
+    </contacto>
+
+
 </empresa>
