@@ -82,11 +82,9 @@
 
 
     <contacto>
-
         <nombre>Nombre Usuario</nombre>
-        <Email>ejemplo@gmail.com</email>
+        <email>ejemplo@gmail.com</email>
         <mensaje>Escribe aqui el contenido del mensaje</mensaje>
-
     </contacto>
 
 

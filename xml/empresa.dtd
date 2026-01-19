@@ -1,4 +1,4 @@
-<!ELEMENT empresa (nombre,direccion,servicios,productos)>
+<!ELEMENT empresa (nombre,direccion,servicios,productos,contacto)>
 <!ELEMENT nombre (#PCDATA)>
 <!ATTLIST nombre categoria NMTOKEN #IMPLIED>
 <!ELEMENT direccion (calle,ciudad,pais)>
