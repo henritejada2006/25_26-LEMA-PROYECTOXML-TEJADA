@@ -3,6 +3,9 @@
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
     
     <xsl:template match="/">
+        <xsl:result-document href="../catalogo_1.html">
+            
+        </xsl:result-document>
         <html>
             <head>
                 <title>Servicios - Tech Solutions S.A.</title>
