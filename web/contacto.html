@@ -1,80 +1,74 @@
 <!DOCTYPE HTML>
-<!--
-	Base de la plantilla creada por TEMPLATED y adapatada para la realización del
-	Proyecto dirigido a la validación, formateo y transformación de documentos XML
--->
 <html lang="es">
-	<head>
-		<title>UD6: Proyecto dirigido a la validación, formateo y transformación de documentos XML</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="../assets/css/main.css" />
-	</head>
-	<body>
+    <head>
+        <title>Contacto - Tech Solutions S.A.</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="../assets/css/main.css" />
+    </head>
+    <body>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="inner">
-				<a href="../index.html" class="logo">Tech Solutions S.A</a>
-				<nav id="nav">
-					<a href="../index.html">Página Principal</a>
-					<a href="catalogo_1.html">Catálogo 1</a>
-					<a href="catalogo_2.html">Catálogo 2</a>
-					<a href="#">Contacto</a>
-				</nav>
-			</div>
-		</header>
-		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+        <header id="header">
+            <div class="inner">
+                <a href="../index.html" class="logo">Tech Solutions</a>
+                <nav id="nav">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../xml/empresa.xml">Catálogo Tabla</a>
+                    <a href="../xml2/empresa_v2.xml">Catálogo Categorías</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </header>
 
-		<!-- Main -->
-		<section id="main" >
-			<div class="inner">
-				<header>
-					<h1>Contacto</h1>
-				</header>
-				<form method="post" action="#">
-					<div class="field half first">
-						<label for="name">Nombre</label>
-						<input type="text" name="name" id="name" />
-					</div>
-					<div class="field half">
-						<label for="email">Email</label>
-						<input type="text" name="email" id="email" />
-					</div>
-					<div class="field">
-						<label for="message">Mensaje</label>
-						<textarea name="message" id="message" rows="6"></textarea>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Enviar" class="alt" /></li>
-					</ul>
-				</form>
-			</div>
-		</section>
+        <section id="main">
+            <div class="inner">
+                <header class="major special">
+                    <h1>Contacto</h1>
+                    <p>Ponte en contacto con nuestro equipo de soporte técnico y consultoría.</p>
+                </header>
 
-		<!-- Footer -->
-		<footer id="footer">
-			<div class="inner">
-				<div class="copyright">
-					&copy; 202X Integrantes del grupo
-					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-					</ul>
-					Datos de la empresa o asosciación
-				</div>
-			</div>
-		</footer>
+                <form method="post" action="#">
+                    <div class="row uniform">
+                        <div class="6u 12u$(xsmall)">
+                            <input type="text" name="name" id="name" value="" placeholder="Nombre completo" required />
+                        </div>
+                        <div class="6u$ 12u$(xsmall)">
+                            <input type="email" name="email" id="email" value="" placeholder="Correo electrónico" required />
+                        </div>
+                        <div class="12u$">
+                            <div class="select-wrapper">
+                                <select name="category" id="category">
+                                    <option value="">- Tipo de consulta -</option>
+                                    <option value="1">Soporte Técnico</option>
+                                    <option value="1">Consultoría IT</option>
+                                    <option value="1">Software a medida</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="12u$">
+                            <textarea name="message" id="message" placeholder="Escribe tu mensaje aquí..." rows="6" required></textarea>
+                        </div>
+                        <div class="12u$">
+                            <ul class="actions">
+                                <li><input type="submit" value="Enviar Mensaje" class="special" /></li>
+                                <li><input type="reset" value="Limpiar Formulario" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
 
-		<!-- Scripts -->
-		<script src="../assets/js/jquery.min.js"></script>
-		<script src="../assets/js/skel.min.js"></script>
-		<script src="../assets/js/util.js"></script>
-		<script src="../assets/js/main.js"></script>
+        <footer id="footer">
+            <div class="inner">
+                <div class="copyright">
+                    &copy; 2026 Tech Solutions S.A. | Av. Innovación 123, Futurolandia.
+                </div>
+            </div>
+        </footer>
 
-	</body>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/main.js"></script>
+
+    </body>
 </html>

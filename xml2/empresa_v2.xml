@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empresa SYSTEM "../dtd/empresa.dtd">
+<?xml-stylesheet type="text/xsl" href="../xsl2/catalogo_2.xslt"?>
+
+<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:noNamespaceSchemaLocation="../xsd/empresa.xsd">
+    <nombre>Tech Solutions S.A. - Vista Categorías</nombre>
+    
+    <direccion>
+        <calle>Av. Innovación 123</calle>
+        <ciudad>Ciudad Tecnológica</ciudad>
+        <pais>España</pais>
+    </direccion>
+
+    <catalogo>
+        <item tipo="servicio" categoria="Desarrollo">
+            <nombre>Desarrollo de Apps Móviles</nombre>
+            <descripcion>Creación de aplicaciones nativas y multiplataforma para iOS y Android con diseño UX/UI moderno.</descripcion>
+            <precio>2500.00</precio>
+            <descuento>15</descuento>
+            <imagen>../assets/images/app.jpg</imagen>
+            <url>https://www.google.com/search?q=desarrollo+movil</url>
+        </item>
+
+        <item tipo="servicio" categoria="Soporte">
+            <nombre>Mantenimiento de Servidores</nombre>
+            <descripcion>Monitorización 24/7 de infraestructura crítica, copias de seguridad automáticas y optimización de rendimiento.</descripcion>
+            <precio>450.00</precio>
+            <descuento>5</descuento>
+            <imagen>../assets/images/server.jpg</imagen>
+            <url>https://www.google.com/search?q=mantenimiento+servidores</url>
+        </item>
+
+        <item tipo="producto" categoria="Software">
+            <nombre>Licencia ERP TechFlow</nombre>
+            <descripcion>Software de gestión empresarial integral que incluye facturación, inventario y gestión de recursos humanos.</descripcion>
+            <precio>899.99</precio>
+            <descuento>10</descuento>
+            <imagen>../assets/images/erp.jpg</imagen>
+            <url>https://www.google.com/search?q=erp+software</url>
+        </item>
+
+        <item tipo="producto" categoria="Seguridad">
+            <nombre>Firewall Avanzado CyberGate</nombre>
+            <descripcion>Dispositivo físico de seguridad perimetral con detección de intrusos y protección contra ataques DDoS.</descripcion>
+            <precio>1200.00</precio>
+            <descuento>0</descuento>
+            <imagen>../assets/images/firewall.jpg</imagen>
+            <url>https://www.google.com/search?q=cybersecurity+firewall</url>
+        </item>
+
+        <item tipo="servicio" categoria="Consultoría">
+            <nombre>Auditoría de Ciberseguridad</nombre>
+            <descripcion>Análisis profundo de vulnerabilidades en la red corporativa y propuestas de mejora para cumplimiento legal.</descripcion>
+            <precio>1800.00</precio>
+            <descuento>20</descuento>
+            <imagen>../assets/images/audit.jpg</imagen>
+            <url>https://www.google.com/search?q=ciberseguridad+auditoria</url>
+        </item>
+
+        <item tipo="producto" categoria="Almacenamiento">
+            <nombre>Pack Cloud 5TB</nombre>
+            <descripcion>Almacenamiento en la nube de alta velocidad con cifrado de extremo a extremo y acceso desde cualquier dispositivo.</descripcion>
+            <precio>120.00</precio>
+            <descuento>25</descuento>
+            <imagen>../assets/images/cloud.jpg</imagen>
+            <url>https://www.google.com/search?q=cloud+storage</url>
+        </item>
+    </catalogo>
+
+    <contacto>
+        <nombre>Juan Pérez</nombre>
+        <email>juan@techsolutions.es</email>
+        <mensaje>Consulta sobre presupuesto detallado de servicios.</mensaje>
+    </contacto>
+</empresa>

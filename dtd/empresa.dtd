@@ -1,0 +1,24 @@
+<!ENTITY empresaNombre "Tech Solutions S.A.">
+
+<!ELEMENT empresa (nombre, direccion, catalogo, contacto)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (calle, ciudad, pais)>
+<!ELEMENT calle (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+
+<!ELEMENT catalogo (item+)>
+<!ELEMENT item (nombre, descripcion, precio, descuento, imagen, url)>
+<!ATTLIST item 
+    tipo (producto | servicio) #REQUIRED
+    categoria CDATA #REQUIRED>
+
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT descuento (#PCDATA)>
+<!ELEMENT imagen (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+
+<!ELEMENT contacto (nombre, email, mensaje)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
