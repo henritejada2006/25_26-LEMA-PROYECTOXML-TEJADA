@@ -18,6 +18,9 @@
                                 <th>Descripción</th>
                                 <th>Precio Base</th>
                                 <th>Precio + IVA</th>
+                                <th>Precio con descuento</th>
+                                <th>Imagen</th>
+                                <th>Enlace</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -28,6 +31,11 @@
                                     <td><xsl:value-of select="precio"/>€</td>
                                     <td style="color: red; font-weight: bold;">
                                         <xsl:value-of select="format-number(precio * 1.21, '#.00')"/>€
+                                    </td>
+                                    <xsl:variable name="precioIVA" select="precio * 1.21"/>
+                                    <xsl:variable name="precioConDescuento" select="$precioIVA * 0.95"/>
+                                    <td style="color: green; font-weight: bold;">
+                                        <xsl:value-of select="format-number($precioConDescuento, '#.00')"/>€
                                     </td>
                                     <td><img src="{imagen}" alt="Imagen del producto"/></td>
                                     <td><a href="{url}" target="_blank">Ver más</a></td>
