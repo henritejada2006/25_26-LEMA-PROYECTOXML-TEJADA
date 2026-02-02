@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:variable name="empresaXml" select="document('../xml/empresa.xml')"/>
     <xsl:template match="/">
         <html>
             <head>
@@ -20,7 +21,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <xsl:for-each select="empresa/catalogo/item">
+                            <xsl:for-each select="$empresaXml/empresa/catalogo/item">
                                 <tr>
                                     <td><strong><xsl:value-of select="nombre"/></strong></td>
                                     <td><xsl:value-of select="descripcion"/></td>
