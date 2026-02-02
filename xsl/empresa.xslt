@@ -29,6 +29,7 @@
                                     <td style="color: red; font-weight: bold;">
                                         <xsl:value-of select="format-number(precio * 1.21, '#.00')"/>€
                                     </td>
+                                    <td><img src="{imagen}" alt="Imagen del producto"/></td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>

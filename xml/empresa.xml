@@ -17,7 +17,7 @@
             <descripcion>Creación de aplicaciones nativas y multiplataforma para iOS y Android.</descripcion>
             <precio>2500.00</precio>
             <descuento>15</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
+            <imagen>../images/pic11.jpg</imagen>
             <url>https://www.google.com</url>
         </item>
 
