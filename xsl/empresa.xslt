@@ -30,10 +30,14 @@
                                         <xsl:value-of select="format-number(precio * 1.21, '#.00')"/>€
                                     </td>
                                     <td><img src="{imagen}" alt="Imagen del producto"/></td>
+                                    <td><a href="{url}" target="_blank">Ver más</a></td>
                                 </tr>
                             </xsl:for-each>
                         </tbody>
                     </table>
+                </div>
+                <div class="total-items" style="margin-top:10px;">
+                    <p><strong>Total de servicios y productos: </strong><xsl:value-of select="count($empresaXml/empresa/catalogo/item)"/></p>
                 </div>
                 <br/>
                 <a href="../index.html">Volver al Inicio</a>

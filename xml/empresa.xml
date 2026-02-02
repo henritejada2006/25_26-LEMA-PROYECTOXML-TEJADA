@@ -17,8 +17,8 @@
             <descripcion>Creación de aplicaciones nativas y multiplataforma para iOS y Android.</descripcion>
             <precio>2500.00</precio>
             <descuento>15</descuento>
-            <imagen>../images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/movil.png</imagen>
+            <url>https://developer.android.com/%3Fhl%3Des-419</url>
         </item>
 
         <item tipo="servicio" categoria="Soporte">
@@ -26,8 +26,8 @@
             <descripcion>Monitorización 24/7 de infraestructura crítica y copias de seguridad.</descripcion>
             <precio>450.00</precio>
             <descuento>5</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/servers.png</imagen>
+            <url>https://hypertecsp.com/knowledge-base/server-maintenance/</url>
         </item>
 
         <item tipo="producto" categoria="Software">
@@ -35,8 +35,8 @@
             <descripcion>Software de gestión empresarial integral (facturación e inventario).</descripcion>
             <precio>899.99</precio>
             <descuento>10</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/erp.jpeg</imagen>
+            <url>https://www.holded.com/es/erp</url>
         </item>
 
         <item tipo="producto" categoria="Seguridad">
@@ -44,8 +44,8 @@
             <descripcion>Dispositivo físico de seguridad perimetral y protección DDoS.</descripcion>
             <precio>1200.00</precio>
             <descuento>0</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/firewall.png</imagen>
+            <url>https://www.cloudflare.com/es-es/learning/security/what-is-a-firewall/</url>
         </item>
 
         <item tipo="servicio" categoria="Consultoría">
@@ -53,8 +53,8 @@
             <descripcion>Análisis profundo de vulnerabilidades y propuestas de mejora.</descripcion>
             <precio>1800.00</precio>
             <descuento>20</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/seguridad.png</imagen>
+            <url>https://www.incibe.es/</url>
         </item>
 
         <item tipo="producto" categoria="Almacenamiento">
@@ -62,8 +62,8 @@
             <descripcion>Almacenamiento en la nube de alta velocidad con cifrado avanzado.</descripcion>
             <precio>120.00</precio>
             <descuento>25</descuento>
-            <imagen>../assets/images/pic11.jpg</imagen>
-            <url>https://www.google.com</url>
+            <imagen>../images/cloud.png</imagen>
+            <url>https://www.microsoft.com/es-es/microsoft-365/onedrive/online-cloud-storage</url>
         </item>
     </catalogo>
 
