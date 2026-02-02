@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE empresa SYSTEM "../dtd/empresa.dtd">
-<?xml-stylesheet type="text/xsl" href="../xsl/empresa.xslt"?>
 
-<empresa xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-         xsi:noNamespaceSchemaLocation="../xsd/empresa.xsd">
+<empresa>
     
     <nombre>Tech Solutions S.A.</nombre>
     
